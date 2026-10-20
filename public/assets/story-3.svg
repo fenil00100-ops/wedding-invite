@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a" />
+      <stop offset="50%" stop-color="#1b263b" />
+      <stop offset="85%" stop-color="#3d1e2e" />
+      <stop offset="100%" stop-color="#5a1835" />
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#ffeaa7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffeaa7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#nightSky)" />
+
+  <!-- Giant Radiant Full Moon -->
+  <circle cx="340" cy="150" r="100" fill="url(#moonGlow)" opacity="0.35" />
+  <circle cx="340" cy="150" r="55" fill="#fdfae5" />
+  <circle cx="340" cy="150" r="53" fill="#fff" />
+
+  <!-- Udaipur City Palace silhouette on lake edge -->
+  <path d="M 0 290 L 80 290 L 80 230 Q 110 200, 140 230 L 140 290 L 220 290 L 220 250 Q 240 230, 260 250 L 260 290 L 500 290 L 500 320 L 0 320 Z" fill="#1e1022" />
+
+  <!-- Lake Pichola waters -->
+  <rect x="0" y="315" width="500" height="185" fill="#0b1320" />
+  <!-- Moon reflection on water -->
+  <ellipse cx="340" cy="350" rx="40" ry="4" fill="#fdfae5" opacity="0.6" />
+  <ellipse cx="340" cy="370" rx="30" ry="3" fill="#fdfae5" opacity="0.5" />
+  <ellipse cx="340" cy="390" rx="45" ry="3" fill="#fdfae5" opacity="0.4" />
+  <ellipse cx="340" cy="420" rx="25" ry="2" fill="#fdfae5" opacity="0.3" />
+
+  <!-- Traditional Shikara Boat on Lake -->
+  <g>
+    <!-- Boat hull -->
+    <path d="M 120 400 Q 220 435, 320 400 L 330 385 Q 220 400, 110 385 Z" fill="#4a1525" stroke="#c9a45c" stroke-width="1.5" />
+    <!-- Boat Canopy / Chhatri -->
+    <path d="M 170 385 L 170 330 Q 220 310, 270 330 L 270 385" stroke="#c9a45c" stroke-width="2" fill="none" />
+    <path d="M 160 330 Q 220 300, 280 330 Z" fill="#7a1f3d" stroke="#c9a45c" stroke-width="1.5" />
+    <!-- Floating Diyas (candles) on water -->
+    <circle cx="90" cy="425" r="4" fill="#ffd166" />
+    <circle cx="360" cy="415" r="3" fill="#ffd166" />
+    <circle cx="390" cy="435" r="4" fill="#ffd166" />
+    <circle cx="70" cy="445" r="3" fill="#ffd166" />
+  </g>
+
+  <!-- Proposal Silhouette inside boat -->
+  <!-- Groom on one knee with ring -->
+  <circle cx="205" cy="355" r="7" fill="#fff" />
+  <path d="M 200 362 L 200 385 L 218 385 L 210 365 Z" fill="#fff" />
+  <!-- Arm offering ring box with sparkle -->
+  <line x1="210" y1="368" x2="225" y2="368" stroke="#fff" stroke-width="2" />
+  <polygon points="228,364 230,367 233,368 230,369 228,372 226,369 223,368 226,367" fill="#ffd700" />
+
+  <!-- Bride standing with hands to heart in shock & joy -->
+  <circle cx="245" cy="347" r="7" fill="#ffd1dc" />
+  <path d="M 240 354 Q 235 375, 240 385 L 255 385 Q 255 375, 248 354 Z" fill="#ffd1dc" />
+  <path d="M 242 358 Q 235 363, 238 366" stroke="#ffd1dc" stroke-width="2" fill="none" />
+
+  <!-- Watermark -->
+  <text x="250" y="475" font-family="'Cinzel', serif" font-size="13" letter-spacing="4" fill="#c9a45c" text-anchor="middle">LAKE PICHOLA • SHE SAID YES!</text>
+</svg>

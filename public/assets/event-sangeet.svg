@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sangeetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d0e1f" />
+      <stop offset="50%" stop-color="#58162d" />
+      <stop offset="100%" stop-color="#240713" />
+    </linearGradient>
+    <linearGradient id="sangeetGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0c2" />
+      <stop offset="50%" stop-color="#e2b963" />
+      <stop offset="100%" stop-color="#a0752a" />
+    </linearGradient>
+    <radialGradient id="stageLight" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffd56b" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#e07294" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#sangeetBg)" rx="16" />
+  <circle cx="300" cy="180" r="180" fill="url(#stageLight)" />
+
+  <!-- Hanging Moroccan / Mughal lanterns with warm glow -->
+  <g stroke="url(#sangeetGold)" stroke-width="1.5" fill="none">
+    <line x1="120" y1="0" x2="120" y2="70" />
+    <path d="M 110 70 C 110 90, 130 90, 130 70 Z" fill="#ffd97d" fill-opacity="0.8" />
+    <line x1="200" y1="0" x2="200" y2="45" />
+    <path d="M 192 45 C 192 60, 208 60, 208 45 Z" fill="#ffd97d" fill-opacity="0.7" />
+    <line x1="400" y1="0" x2="400" y2="50" />
+    <path d="M 392 50 C 392 65, 408 65, 408 50 Z" fill="#ffd97d" fill-opacity="0.7" />
+    <line x1="480" y1="0" x2="480" y2="75" />
+    <path d="M 470 75 C 470 95, 490 95, 490 75 Z" fill="#ffd97d" fill-opacity="0.8" />
+  </g>
+
+  <!-- Musical silhouettes: Dholak / Tabla & dancing couple silhouette -->
+  <!-- Classical Indian Arch -->
+  <path d="M 100 400 L 100 200 C 100 120, 200 80, 300 60 C 400 80, 500 120, 500 200 L 500 400" 
+        stroke="url(#sangeetGold)" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 120 400 L 120 210 C 120 140, 210 100, 300 82 C 390 100, 480 140, 480 210 L 480 400" 
+        stroke="url(#sangeetGold)" stroke-width="1" stroke-dasharray="3,3" fill="none" opacity="0.3" />
+
+  <!-- Stylized Dancing Couple Silhouette in shimmering gold -->
+  <g fill="url(#sangeetGold)">
+    <!-- Groom silhouette dancing -->
+    <circle cx="270" cy="180" r="14" />
+    <path d="M 270 196 C 255 210, 250 240, 252 290 L 285 290 C 285 250, 280 215, 270 196 Z" />
+    <path d="M 260 210 Q 230 180, 220 160 Q 228 156, 245 178 Q 260 195, 260 210 Z" />
+    <!-- Bride silhouette swirling lehenga -->
+    <circle cx="330" cy="185" r="13" />
+    <path d="M 330 200 Q 320 220, 325 240 Q 340 230, 345 205 Z" />
+    <path d="M 325 240 Q 280 320, 280 340 L 385 340 Q 380 315, 345 240 Z" fill-opacity="0.9" />
+    <!-- Flowing Dupatta -->
+    <path d="M 330 198 Q 360 170, 375 145 Q 380 155, 360 190 Q 340 210, 330 198 Z" fill-opacity="0.75" />
+    <!-- Dance base shimmer line -->
+    <ellipse cx="300" cy="342" rx="140" ry="10" fill="#ffd97d" fill-opacity="0.15" />
+  </g>
+
+  <!-- Sparkles & Musical notes -->
+  <g fill="#ffd56b" opacity="0.8">
+    <circle cx="160" cy="150" r="2.5" />
+    <circle cx="430" cy="170" r="2" />
+    <circle cx="220" cy="270" r="2" />
+    <circle cx="380" cy="260" r="3" />
+    <polygon points="300,45 303,53 311,56 303,59 300,67 297,59 289,56 297,53" />
+    <polygon points="180,105 182,111 188,113 182,115 180,121 178,115 172,113 178,111" />
+    <polygon points="420,115 422,121 428,123 422,125 420,131 418,125 412,123 418,121" />
+  </g>
+</svg>

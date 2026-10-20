@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4d6" />
+      <stop offset="50%" stop-color="#c9a45c" />
+      <stop offset="100%" stop-color="#886529" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <circle cx="100" cy="100" r="92" fill="#3a0b1c" stroke="url(#goldGrad)" stroke-width="4" />
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="4,4" />
+  
+  <!-- Intricate Indian floral ornamental accents -->
+  <path d="M 100 25 C 105 38 115 42 125 40 C 115 46 112 55 100 62 C 88 55 85 46 75 40 C 85 42 95 38 100 25 Z" fill="url(#goldGrad)" />
+  <path d="M 100 175 C 105 162 115 158 125 160 C 115 154 112 145 100 138 C 88 145 85 154 75 160 C 85 158 95 162 100 175 Z" fill="url(#goldGrad)" />
+  
+  <!-- Letters A & N Monogram -->
+  <text x="75" y="112" font-family="'Cinzel', serif" font-size="46" font-weight="700" fill="url(#goldGrad)" text-anchor="middle">A</text>
+  <text x="100" y="105" font-family="'Pinyon Script', cursive" font-size="28" font-style="italic" fill="#fdf4d6" text-anchor="middle">&amp;</text>
+  <text x="125" y="112" font-family="'Cinzel', serif" font-size="46" font-weight="700" fill="url(#goldGrad)" text-anchor="middle">N</text>
+  
+  <!-- Small date in arc or bottom -->
+  <text x="100" y="132" font-family="'Montserrat', sans-serif" font-size="9" font-weight="600" letter-spacing="3" fill="#dfc27a" text-anchor="middle">14 • 02 • 2027</text>
+</svg>

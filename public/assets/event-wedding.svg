@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wedBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a0614" />
+      <stop offset="50%" stop-color="#460d23" />
+      <stop offset="100%" stop-color="#19030c" />
+    </linearGradient>
+    <linearGradient id="wedGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#997728" />
+    </linearGradient>
+    <radialGradient id="sacredFireGlow" cx="50%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#ff7b00" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#ff0055" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#wedBg)" rx="16" />
+  <circle cx="300" cy="260" r="160" fill="url(#sacredFireGlow)" />
+
+  <!-- Royal Udaipur Lake Palace silhouette backdrop in distance -->
+  <g fill="#5e1531" opacity="0.6">
+    <path d="M 50 250 L 120 250 L 120 200 Q 140 180, 160 200 L 160 250 L 220 250 L 220 170 Q 250 140, 280 170 L 280 250 L 320 250 L 320 170 Q 350 140, 380 170 L 380 250 L 440 250 L 440 200 Q 460 180, 480 200 L 480 250 L 550 250 L 550 280 L 50 280 Z" />
+    <!-- Palace domes (Chhatris) -->
+    <path d="M 230 170 C 230 140, 270 140, 270 170 Z" fill="#751f40" />
+    <path d="M 330 170 C 330 140, 370 140, 370 170 Z" fill="#751f40" />
+    <path d="M 130 200 C 130 180, 150 180, 150 200 Z" fill="#751f40" />
+    <path d="M 450 200 C 450 180, 470 180, 470 200 Z" fill="#751f40" />
+  </g>
+
+  <!-- Lake Pichola water ripples reflection line -->
+  <path d="M 50 280 Q 300 285, 550 280" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3" fill="none" />
+  <path d="M 80 295 Q 300 300, 520 295" stroke="#d4af37" stroke-width="1" stroke-opacity="0.2" stroke-dasharray="8,6" fill="none" />
+
+  <!-- The Royal Grand Mandap Pillars and Floral Canopy -->
+  <g stroke="url(#wedGold)" stroke-width="2.5" fill="none">
+    <!-- Left Pillars -->
+    <line x1="160" y1="90" x2="160" y2="350" />
+    <line x1="175" y1="90" x2="175" y2="350" />
+    <!-- Right Pillars -->
+    <line x1="425" y1="90" x2="425" y2="350" />
+    <line x1="440" y1="90" x2="440" y2="350" />
+    
+    <!-- Mandap Royal Arch / Canopy -->
+    <path d="M 150 100 C 200 40, 400 40, 450 100" stroke-width="3" />
+    <path d="M 170 110 C 220 60, 380 60, 430 110" stroke-dasharray="4,4" />
+    <!-- Center royal finial / kalash crest -->
+    <path d="M 300 35 L 305 52 L 295 52 Z" fill="url(#wedGold)" />
+    <circle cx="300" cy="30" r="5" fill="url(#wedGold)" />
+  </g>
+
+  <!-- Hanging Crystal Chandelier & Floral strings from canopy -->
+  <g fill="none" stroke="#ffd97d" stroke-width="1">
+    <line x1="300" y1="65" x2="300" y2="120" />
+    <path d="M 285 120 Q 300 135, 315 120" />
+    <circle cx="300" cy="138" r="3" fill="#ffd97d" />
+    <circle cx="285" cy="128" r="2" fill="#ffd97d" />
+    <circle cx="315" cy="128" r="2" fill="#ffd97d" />
+  </g>
+
+  <!-- Sacred Havan Kund (Holy Fire Pit) -->
+  <polygon points="260,335 340,335 325,360 275,360" fill="#a45a2a" stroke="url(#wedGold)" stroke-width="2" />
+  <polygon points="250,335 350,335 340,342 260,342" fill="url(#wedGold)" />
+
+  <!-- Sacred Flame in Havan Kund -->
+  <path d="M 288 335 Q 295 295, 300 280 Q 305 295, 312 335 Z" fill="#ffb703" />
+  <path d="M 293 335 Q 298 305, 300 295 Q 303 305, 307 335 Z" fill="#fff" />
+  <path d="M 280 335 Q 290 310, 295 320 Q 290 335, 280 335 Z" fill="#e85d04" opacity="0.8" />
+  <path d="M 320 335 Q 310 310, 305 320 Q 310 335, 320 335 Z" fill="#e85d04" opacity="0.8" />
+
+  <!-- Royal Floral garlands on pillars -->
+  <circle cx="167" cy="120" r="7" fill="#f43f5e" /><circle cx="167" cy="135" r="7" fill="#fff" /><circle cx="167" cy="150" r="7" fill="#fbbf24" />
+  <circle cx="432" cy="120" r="7" fill="#f43f5e" /><circle cx="432" cy="135" r="7" fill="#fff" /><circle cx="432" cy="150" r="7" fill="#fbbf24" />
+
+  <!-- Golden Stars & Sparkles in the Udaipur night sky -->
+  <g fill="#ffd700">
+    <polygon points="120,60 122,66 128,68 122,70 120,76 118,70 112,68 118,66" />
+    <polygon points="480,70 482,76 488,78 482,80 480,86 478,80 472,78 478,76" />
+    <circle cx="210" cy="50" r="2" />
+    <circle cx="390" cy="50" r="2" />
+    <circle cx="100" cy="110" r="1.5" />
+    <circle cx="500" cy="120" r="1.5" />
+  </g>
+</svg>

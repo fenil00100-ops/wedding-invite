@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ahmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a1525" />
+      <stop offset="100%" stop-color="#240712" />
+    </linearGradient>
+    <linearGradient id="ahmGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4d6" />
+      <stop offset="50%" stop-color="#c9a45c" />
+      <stop offset="100%" stop-color="#886529" />
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="200" fill="url(#ahmBg)" rx="16" />
+  <circle cx="100" cy="95" r="70" fill="#651731" opacity="0.4" />
+
+  <!-- Iconic Sidi Saiyyed Tree-of-Life semi-circular jali motif -->
+  <path d="M 30 130 C 30 50, 170 50, 170 130 Z" fill="none" stroke="url(#ahmGold)" stroke-width="2.5" />
+  <!-- Tree trunk in center -->
+  <path d="M 97 130 L 97 90 Q 90 70, 75 60 Q 90 80, 100 85 Q 110 80, 125 60 Q 110 70, 103 90 L 103 130 Z" fill="url(#ahmGold)" />
+  <!-- Filigree branches -->
+  <path d="M 98 85 Q 60 75, 45 95 Q 65 90, 96 90" fill="none" stroke="url(#ahmGold)" stroke-width="1.2" />
+  <path d="M 102 85 Q 140 75, 155 95 Q 135 90, 104 90" fill="none" stroke="url(#ahmGold)" stroke-width="1.2" />
+  <path d="M 100 70 Q 70 55, 60 70" fill="none" stroke="url(#ahmGold)" stroke-width="1" />
+  <path d="M 100 70 Q 130 55, 140 70" fill="none" stroke="url(#ahmGold)" stroke-width="1" />
+
+  <!-- Base stone terrace -->
+  <rect x="20" y="130" width="160" height="10" fill="url(#ahmGold)" rx="2" />
+  <rect x="35" y="142" width="130" height="6" fill="#886529" rx="2" />
+
+  <!-- Label -->
+  <text x="100" y="172" font-family="'Cinzel', serif" font-size="12" font-weight="700" letter-spacing="3" fill="url(#ahmGold)" text-anchor="middle">AHMEDABAD</text>
+  <text x="100" y="186" font-family="'Montserrat', sans-serif" font-size="8" letter-spacing="1.5" fill="#fcf4f3" opacity="0.8" text-anchor="middle">HERITAGE CITY</text>
+</svg>

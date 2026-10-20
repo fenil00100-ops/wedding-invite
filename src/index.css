@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Pinyon Script", "Great Vibes", cursive;
+  --font-cursive: "Great Vibes", cursive;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-cinzel: "Cinzel", Georgia, serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-burgundy-950: #330b18;
+  --color-burgundy-900: #4e1226;
+  --color-burgundy-800: #651731;
+  --color-burgundy: #7a1f3d;
+  --color-burgundy-600: #962a4e;
+  --color-burgundy-500: #b0365f;
+  --color-burgundy-200: #ecc2cf;
+  --color-burgundy-100: #f6e1e8;
+  --color-burgundy-50: #fbf2f5;
+
+  --color-gold-100: #fcf6e7;
+  --color-gold-200: #f7eac7;
+  --color-gold-300: #efdc9d;
+  --color-gold-400: #dfc27a;
+  --color-gold: #c9a45c;
+  --color-gold-600: #ad863c;
+  --color-gold-700: #886529;
+
+  --color-blush-50: #fffbfa;
+  --color-blush-100: #fcf4f3;
+  --color-blush-200: #f7e6e5;
+  --color-blush-300: #efcfd3;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-serif);
+    color: #4a1525;
+    background-color: #fcf7f8;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Glassmorphism & Luxury effects */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 10px 30px -5px rgba(122, 31, 61, 0.08), 0 2px 8px -2px rgba(201, 164, 92, 0.12);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 24px -4px rgba(122, 31, 61, 0.06);
+}
+
+.glass-panel-gold {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(252, 246, 231, 0.65));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 164, 92, 0.35);
+  box-shadow: 0 12px 32px -4px rgba(122, 31, 61, 0.09), 0 0 15px rgba(201, 164, 92, 0.12);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #c9a45c 0%, #ecd08c 45%, #b0893f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to bottom right, #e2c98d, #c9a45c, #966f28) 1;
+}
+
+.shimmer-gold {
+  background: linear-gradient(
+    90deg,
+    rgba(201, 164, 92, 0.1) 0%,
+    rgba(255, 255, 255, 0.45) 50%,
+    rgba(201, 164, 92, 0.1) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Subtle floral ornament repeat */
+.bg-mandala-pattern {
+  background-image: radial-gradient(circle at 50% 50%, rgba(201, 164, 92, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom 3D Gate Perspective */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+/* Smooth hide scrollbars for polaroid carousel while retaining touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
