@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="haldiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a1a08" />
+      <stop offset="50%" stop-color="#692b11" />
+      <stop offset="100%" stop-color="#381005" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#fb8500" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="haldiGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3b0" />
+      <stop offset="50%" stop-color="#f4a261" />
+      <stop offset="100%" stop-color="#e76f51" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#haldiBg)" rx="16" />
+  <circle cx="300" cy="180" r="170" fill="url(#sunGlow)" />
+
+  <!-- Traditional Hanging Marigold Garlands (Genda Phool) -->
+  <g fill="#fca311" stroke="#e85d04" stroke-width="0.8">
+    <!-- Garland left -->
+    <circle cx="80" cy="30" r="14" /><circle cx="80" cy="60" r="14" /><circle cx="80" cy="90" r="14" /><circle cx="80" cy="120" r="14" /><circle cx="80" cy="150" r="14" />
+    <!-- Garland right -->
+    <circle cx="520" cy="30" r="14" /><circle cx="520" cy="60" r="14" /><circle cx="520" cy="90" r="14" /><circle cx="520" cy="120" r="14" /><circle cx="520" cy="150" r="14" />
+  </g>
+  <g fill="#ffb703">
+    <circle cx="130" cy="20" r="11" /><circle cx="130" cy="45" r="11" /><circle cx="130" cy="70" r="11" /><circle cx="130" cy="95" r="11" />
+    <circle cx="470" cy="20" r="11" /><circle cx="470" cy="45" r="11" /><circle cx="470" cy="70" r="11" /><circle cx="470" cy="95" r="11" />
+  </g>
+
+  <!-- Ornate Mandap Toran floral swag -->
+  <path d="M 60 10 Q 300 90, 540 10" stroke="#fca311" stroke-width="4" fill="none" />
+  <path d="M 120 10 Q 300 70, 480 10" stroke="#ffd166" stroke-width="2" stroke-dasharray="6,6" fill="none" />
+
+  <!-- Center Brass Urli with floating yellow marigolds & lotus -->
+  <ellipse cx="300" cy="310" rx="140" ry="40" fill="#ad722c" stroke="#ffe39f" stroke-width="3" />
+  <ellipse cx="300" cy="305" rx="130" ry="34" fill="#60370d" />
+  <ellipse cx="300" cy="305" rx="120" ry="28" fill="#d97706" fill-opacity="0.6" />
+
+  <!-- Lotus in Urli -->
+  <g fill="#ffe57f" stroke="#b45309" stroke-width="1.2">
+    <ellipse cx="300" cy="285" rx="18" ry="35" transform="rotate(-25 300 285)" />
+    <ellipse cx="300" cy="285" rx="18" ry="35" transform="rotate(25 300 285)" />
+    <ellipse cx="300" cy="280" rx="16" ry="38" />
+    <circle cx="300" cy="285" r="10" fill="#ffd166" />
+  </g>
+
+  <!-- Holy Kalash / Pot with mango leaves & coconut in center background -->
+  <g fill="#e09f3e" stroke="#fff3b0" stroke-width="1.5">
+    <path d="M 285 190 Q 275 225, 300 240 Q 325 225, 315 190 Z" />
+    <ellipse cx="300" cy="190" rx="15" ry="5" />
+    <!-- Mango leaves -->
+    <path d="M 285 188 Q 260 160, 275 140 Q 290 165, 288 188 Z" fill="#2d6a4f" stroke="#52b788" />
+    <path d="M 315 188 Q 340 160, 325 140 Q 310 165, 312 188 Z" fill="#2d6a4f" stroke="#52b788" />
+    <path d="M 300 185 Q 295 150, 300 130 Q 305 150, 300 185 Z" fill="#2d6a4f" stroke="#52b788" />
+    <!-- Coconut -->
+    <circle cx="300" cy="148" r="14" fill="#78350f" stroke="#a16207" />
+  </g>
+
+  <!-- Golden shimmer particles -->
+  <circle cx="210" cy="220" r="3" fill="#ffea00" opacity="0.8" />
+  <circle cx="390" cy="220" r="3" fill="#ffea00" opacity="0.8" />
+  <circle cx="250" cy="130" r="2" fill="#fff" opacity="0.9" />
+  <circle cx="350" cy="140" r="2" fill="#fff" opacity="0.9" />
+</svg>

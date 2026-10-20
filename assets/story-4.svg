@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="weddingSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d0f20" />
+      <stop offset="50%" stop-color="#5a1835" />
+      <stop offset="100%" stop-color="#210510" />
+    </linearGradient>
+    <radialGradient id="sacredMandapGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffd56b" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#e056fd" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#weddingSky)" />
+  <circle cx="250" cy="230" r="190" fill="url(#sacredMandapGlow)" />
+
+  <!-- Intricate Mughal Arch Frame -->
+  <path d="M 50 450 L 50 180 C 50 80, 180 50, 250 30 C 320 50, 450 80, 450 180 L 450 450" 
+        fill="none" stroke="#c9a45c" stroke-width="2" opacity="0.6" />
+  <path d="M 65 450 L 65 190 C 65 100, 190 70, 250 50 C 310 70, 435 100, 435 190 L 435 450" 
+        fill="none" stroke="#c9a45c" stroke-width="1" stroke-dasharray="4,4" opacity="0.4" />
+
+  <!-- Royal Couple Silhouette in Regal Traditional Attire -->
+  <!-- Groom (Sherwani & Royal Pagdi/Turban with Kalgi) -->
+  <g fill="#c9a45c">
+    <!-- Turban & Kalgi -->
+    <path d="M 195 160 C 190 145, 220 135, 230 150 C 235 160, 215 170, 195 160 Z" />
+    <path d="M 215 138 Q 212 120, 218 110 Q 222 122, 219 138 Z" fill="#ffd700" />
+    <!-- Face silhouette -->
+    <circle cx="215" cy="172" r="12" />
+    <!-- Sherwani coat & stole (dupatta) -->
+    <path d="M 190 190 L 235 190 L 230 350 L 180 350 Z" />
+    <path d="M 205 190 L 200 350 L 190 350 L 195 190 Z" fill="#997728" />
+  </g>
+
+  <!-- Bride (Royal Lehenga, Chooda bangles, Maang Tikka & veil) -->
+  <g fill="#d65778">
+    <!-- Maang Tikka and hair bun -->
+    <circle cx="280" cy="176" r="11" />
+    <path d="M 280 165 L 280 172" stroke="#ffd700" stroke-width="2" />
+    <!-- Flowing wedding veil (Chunari) -->
+    <path d="M 275 165 Q 330 200, 320 360 L 295 360 Q 295 240, 275 185 Z" fill="#b03058" fill-opacity="0.8" />
+    <!-- Blouse & Grand Royal Lehenga flare -->
+    <path d="M 260 192 L 295 192 L 285 240 L 265 240 Z" fill="#d65778" />
+    <path d="M 265 240 Q 220 350, 220 370 L 335 370 Q 330 330, 285 240 Z" fill="#e75480" />
+    <!-- Gold borders on lehenga -->
+    <path d="M 220 365 Q 280 372, 335 365" stroke="#ffd700" stroke-width="3" fill="none" />
+    <path d="M 230 355 Q 280 360, 325 355" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="3,3" fill="none" />
+  </g>
+
+  <!-- Holding Hands & Varmala (Garland) connection -->
+  <path d="M 230 220 Q 250 260, 265 220" stroke="#f6bd60" stroke-width="3" fill="none" stroke-linecap="round" />
+  <circle cx="250" cy="285" r="4" fill="#ffd700" />
+  <circle cx="250" cy="285" r="8" fill="#ffd700" fill-opacity="0.3" />
+
+  <!-- Floating Flower Petals (Rose petals shower) -->
+  <g fill="#f43f5e" opacity="0.85">
+    <ellipse cx="140" cy="180" rx="6" ry="3" transform="rotate(35 140 180)" />
+    <ellipse cx="360" cy="160" rx="5" ry="3" transform="rotate(-20 360 160)" />
+    <ellipse cx="170" cy="260" rx="6" ry="4" transform="rotate(60 170 260)" />
+    <ellipse cx="330" cy="270" rx="7" ry="3" transform="rotate(-40 330 270)" />
+    <ellipse cx="210" cy="380" rx="5" ry="2" transform="rotate(15 210 380)" />
+    <ellipse cx="290" cy="390" rx="6" ry="3" transform="rotate(-25 290 390)" />
+  </g>
+
+  <!-- Watermark caption -->
+  <text x="250" y="475" font-family="'Cinzel', serif" font-size="13" letter-spacing="4" fill="#c9a45c" text-anchor="middle">FOREVER BEGINS • 14 FEB 2027</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <!-- Deep Red Wax 3D Gradient -->
+    <radialGradient id="waxRed" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#b82d46" />
+      <stop offset="45%" stop-color="#83182b" />
+      <stop offset="85%" stop-color="#550e1b" />
+      <stop offset="100%" stop-color="#3b0811" />
+    </radialGradient>
+    <filter id="waxShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#3b0811" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Wax drips & irregular natural melted perimeter -->
+  <path d="M 80 10 
+           C 105 8, 122 18, 138 34 
+           C 152 50, 156 75, 152 98 
+           C 148 118, 134 138, 115 148 
+           C 95 156, 68 155, 48 147 
+           C 25 138, 10 118, 8 95 
+           C 6 72, 14 48, 30 32 
+           C 48 16, 62 12, 80 10 Z" 
+        fill="url(#waxRed)" filter="url(#waxShadow)" />
+
+  <!-- Inner stamped rim depression -->
+  <circle cx="80" cy="80" r="54" fill="none" stroke="#550e1b" stroke-width="3" opacity="0.7" />
+  <circle cx="80" cy="80" r="52" fill="none" stroke="#d45169" stroke-width="1.5" opacity="0.8" />
+
+  <!-- Royal Floral embossed wreath -->
+  <circle cx="80" cy="80" r="46" fill="none" stroke="#3b0811" stroke-width="1.5" stroke-dasharray="3,4" />
+
+  <!-- Embossed Monogram Initials "A & N" -->
+  <text x="62" y="88" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" fill="#3b0811" text-anchor="middle">A</text>
+  <text x="63" y="89" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" fill="#f87171" opacity="0.65" text-anchor="middle">A</text>
+  
+  <text x="80" y="85" font-family="'Pinyon Script', cursive" font-size="20" fill="#fca5a5" text-anchor="middle">&amp;</text>
+  
+  <text x="98" y="88" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" fill="#3b0811" text-anchor="middle">N</text>
+  <text x="99" y="89" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" fill="#f87171" opacity="0.65" text-anchor="middle">N</text>
+
+  <!-- Subtle glossy wax highlight -->
+  <ellipse cx="60" cy="45" rx="28" ry="12" fill="#ffffff" opacity="0.15" transform="rotate(-30 60 45)" />
+</svg>

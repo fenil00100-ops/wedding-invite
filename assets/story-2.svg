@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a1525" />
+      <stop offset="40%" stop-color="#8c2f39" />
+      <stop offset="70%" stop-color="#d97736" />
+      <stop offset="100%" stop-color="#f6bd60" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#sunsetSky)" />
+
+  <!-- Big Glowing Sun on Horizon -->
+  <circle cx="250" cy="280" r="90" fill="#fff3b0" opacity="0.9" />
+  <circle cx="250" cy="280" r="130" fill="#f4a261" opacity="0.3" />
+
+  <!-- Layered Mountain Silhouettes (Aravali range) -->
+  <!-- Distant mountains -->
+  <polygon points="0,320 80,260 180,310 280,240 380,290 500,220 500,500 0,500" fill="#6a1b29" opacity="0.7" />
+  <!-- Mid mountains -->
+  <polygon points="0,350 120,300 230,360 340,290 440,340 500,310 500,500 0,500" fill="#440f1a" opacity="0.9" />
+  <!-- Foreground hill with couple sitting on edge looking at sunset -->
+  <path d="M 0 420 Q 250 360, 500 440 L 500 500 L 0 500 Z" fill="#20060d" />
+
+  <!-- Couple silhouette sitting together on hilltop cliff -->
+  <g fill="#0e0205">
+    <!-- Groom sitting with arm around bride -->
+    <circle cx="235" cy="365" r="9" />
+    <path d="M 226 374 Q 220 395, 230 420 L 255 420 Q 248 395, 244 374 Z" />
+    <!-- Bride resting head on groom's shoulder -->
+    <circle cx="250" cy="370" r="8" />
+    <path d="M 244 378 Q 255 398, 265 420 L 245 420 Z" />
+    <!-- Floating scarf in breeze -->
+    <path d="M 255 385 Q 280 385, 295 375 Q 285 395, 260 392 Z" fill="#c9a45c" />
+  </g>
+
+  <!-- Birds flying in distance -->
+  <path d="M 120 180 Q 128 172, 136 180 Q 144 172, 152 180" stroke="#f6bd60" stroke-width="2" fill="none" />
+  <path d="M 160 160 Q 166 154, 172 160 Q 178 154, 184 160" stroke="#f6bd60" stroke-width="1.5" fill="none" />
+  <path d="M 330 190 Q 338 182, 346 190 Q 354 182, 362 190" stroke="#f6bd60" stroke-width="2" fill="none" />
+
+  <text x="250" y="475" font-family="'Cinzel', serif" font-size="13" letter-spacing="4" fill="#c9a45c" text-anchor="middle">ARAVALI TRAILS • 2024</text>
+</svg>

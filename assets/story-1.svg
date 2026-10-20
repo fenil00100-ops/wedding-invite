@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="coffeeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4e2028" />
+      <stop offset="50%" stop-color="#2c0f16" />
+      <stop offset="100%" stop-color="#19060b" />
+    </linearGradient>
+    <radialGradient id="cafeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffbe76" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ffbe76" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#coffeeBg)" />
+  <circle cx="250" cy="250" r="200" fill="url(#cafeGlow)" />
+  
+  <!-- Bistro table silhouette with two artisanal coffee cups & steam forming a heart -->
+  <ellipse cx="250" cy="380" rx="180" ry="24" fill="#140409" />
+  <rect x="242" y="380" width="16" height="100" fill="#140409" />
+  
+  <!-- Left Coffee Cup (Groom) -->
+  <path d="M 180 340 L 190 380 L 225 380 L 235 340 Z" fill="#c9a45c" stroke="#f5e0a6" stroke-width="2" />
+  <path d="M 180 350 C 165 350, 165 370, 185 372" fill="none" stroke="#f5e0a6" stroke-width="2" />
+  <ellipse cx="207" cy="340" rx="27" ry="6" fill="#441a0d" />
+
+  <!-- Right Coffee Cup (Bride) -->
+  <path d="M 265 340 L 275 380 L 310 380 L 320 340 Z" fill="#d8697f" stroke="#fcd5de" stroke-width="2" />
+  <path d="M 320 350 C 335 350, 335 370, 315 372" fill="none" stroke="#fcd5de" stroke-width="2" />
+  <ellipse cx="292" cy="340" rx="27" ry="6" fill="#441a0d" />
+
+  <!-- Rising steam intertwining into a glowing heart -->
+  <path d="M 207 330 C 180 270, 230 220, 250 200 C 270 220, 320 270, 292 330" fill="none" stroke="#ffeaa7" stroke-width="3" stroke-linecap="round" stroke-dasharray="6,4" opacity="0.85" />
+  <path d="M 220 230 C 220 180, 250 170, 250 190 C 250 170, 280 180, 280 230 C 280 270, 250 290, 250 290 C 250 290, 220 270, 220 230 Z" fill="#e17055" fill-opacity="0.3" stroke="#ffd97d" stroke-width="1.5" />
+
+  <!-- Fairy lights hanging string -->
+  <path d="M 20 60 Q 250 140, 480 60" fill="none" stroke="#c9a45c" stroke-width="1.5" opacity="0.6" />
+  <circle cx="80" cy="82" r="6" fill="#ffeaa7" /><circle cx="150" cy="97" r="7" fill="#ffeaa7" />
+  <circle cx="250" cy="100" r="8" fill="#fff" /><circle cx="350" cy="97" r="7" fill="#ffeaa7" />
+  <circle cx="420" cy="82" r="6" fill="#ffeaa7" />
+
+  <!-- Warm text watermark -->
+  <text x="250" y="450" font-family="'Cinzel', serif" font-size="14" letter-spacing="4" fill="#c9a45c" text-anchor="middle">AHMEDABAD • 2022</text>
+</svg>
